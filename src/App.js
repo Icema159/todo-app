@@ -8,7 +8,6 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   function toggleDarkMode() {
-    console.log('cioa');
     setDarkMode(!darkMode);
   }
 
